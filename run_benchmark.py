@@ -30,7 +30,8 @@ if __name__ == "__main__":
                         '11000',
                         '12000',
                         '13000',
-                        '14000'],
+                        '14000',
+                        '15000'],
                         nargs="?",
                         default='S')
     parser.add_argument("-m", "--mode", type=str, nargs="?", default="main")
